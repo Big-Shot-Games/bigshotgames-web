@@ -115,6 +115,7 @@ section {
     justify-content: center;
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 
 #hero::before {
