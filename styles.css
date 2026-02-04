@@ -115,7 +115,6 @@ section {
     justify-content: center;
     text-align: center;
     position: relative;
-    overflow: hidden;
 }
 
 #hero::before {
@@ -206,6 +205,28 @@ p {
     background: var(--accent-pink);
     color: var(--text-color);
     box-shadow: 4px 4px 0px var(--accent-yellow);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-buttons .btn {
+    margin-top: 2rem;
+}
+
+.btn-github {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-github:hover {
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 4px 4px 0px #666;
 }
 
 .featured-game {
