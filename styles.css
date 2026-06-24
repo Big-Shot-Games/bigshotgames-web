@@ -478,3 +478,10 @@ footer {
 .faq-answer a:hover {
     text-decoration: underline;
 }
+
+.obligatory-legal-disclaimer {
+    font-size: 1rem;
+    color: #aaa;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
